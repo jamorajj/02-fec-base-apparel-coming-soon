@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="contents">
+          <header class="logo">
+            <img src="images/logo.svg" alt="" />
+          </header>
+
+          <section class="mobile-only">
+            <img src="images/hero-mobile.jpg" alt="" />
+          </section>
+
+          <section class="copy">
+            <h2><span>WE'RE</span><br />COMING<br />SOON</h2>
+            <p>
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+            <form id="email-form" class="email-form">
+              <input type="email" name="email" placeholder="Email Address" />
+              <button type="submit">
+                <img src="images/icon-arrow.svg" alt="" />
+              </button>
+              <img
+                id="errorIcon"
+                src="images/icon-error.svg"
+                alt=""
+                class="icon-error"
+              />
+            </form>
+
+            <div id="errorDiv" class="error">&nbsp;</div>
+          </section>
+        </div>
+      </div>
+
+      <div class="right"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
