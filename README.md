@@ -2,7 +2,7 @@
 
 Frontend Challenge - Base Apparel Coming Soon
 
-Solution for base apparel coming soon challenge.
+Solution for base apparel coming soon challenge..
 
 # Frontend Mentor - Base Apparel coming soon page
 
